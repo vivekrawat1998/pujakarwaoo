@@ -14,25 +14,25 @@ const pandits: PanditCard[] = [
     name: "Daleep Kumar Sharma",
     location: "Salasar",
     experience: 15,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/daleep sharma.webp",
   },
   {
     name: "Acharya Ramjas Dwivedi",
     location: "Prayagraj",
     experience: 15,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/panditji.jpg",
   },
   {
     name: "Pandit Ravi Sharma",
     location: "Mehandipur Balaji",
     experience: 6,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/aacharya.avif",
   },
   {
     name: "Pandit Ashish Bhatt",
     location: "Haridwar",
     experience: 5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/ashish bhat.jpg",
   },
 ]
 

@@ -1,47 +1,52 @@
+import { Fullscreen } from "lucide-react"
+import Image from "next/image"
+
 export function ServicesSection() {
   const services = [
-    {
-      text: "किसी भी प्रकार की पूजा बुक करें",
-      icon: "ॐ",
-    },
-    {
-      text: "प्रसाद ऑर्डर करें",
-      icon: "ॐ",
-    },
-    {
-      text: "बंडोरे का आयोजन करवाएं",
-      icon: "ॐ",
-    },
-    {
-      text: "पूजा का सामान ऑर्डर करें",
-      icon: "ॐ",
-    },
-    {
-      text: "थाली डाल की सजा करें",
-      icon: "ॐ",
-    },
+    { text: "किसी भी प्रकार की पूजा बुक करें" },
+    { text: "प्रसाद ऑर्डर करें" },
+    { text: "भंडारे का आयोजन करवाएं" },
+    { text: "पूजा का सामान ऑर्डर करें" },
+    { text: "पंडित जी से बात करें" },
+    { text: "चारों धाम की यात्रा करें" },
   ]
 
   return (
-    <div className="bg-[#B84C25] py-4 sm:py-6 border-t-4 border-[#FFB800] relative">
-      <div
-        className="absolute top-0 left-0 right-0 h-3 bg-repeat-x"
-        style={{
-          backgroundImage: 'url("/placeholder.svg?height=12&width=24")',
-          backgroundSize: "24px 12px",
-        }}
-      />
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 text-white">
-          {services.map((service, index) => (
-            <div key={index} className="flex items-center justify-center sm:justify-start space-x-3">
-              <span className="text-[#FFD700] text-2xl">{service.icon}</span>
-              <span className="text-sm md:text-base font-medium">{service.text}</span>
-            </div>
-          ))}
+    <div>
+      {/* Header Section */}
+      <div className="bg-[#B84C25] grid place-items-center h-[15vh] md:h-[12vh] lg:h-[10vh] border-t-4 border-[#FFB800]">
+        <div className="container mx-auto items-center px-4">
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-white">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="flex items-center justify-center space-x-3 text-center"
+              >
+                <h1 className="text-sm md:text-base lg:text-lg font-medium">
+                  {service.text}
+                </h1>
+                <Image
+                  src="/om.png"
+                  alt="Puja Karwado Logo"
+                  width={26}
+                  height={27}
+                  className=""
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
+
+      {/* Full-Width Border */}
+      <Image
+        src="/border.png"
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="w-full h-auto"
+        alt="Border Image"
+      />
     </div>
   )
 }
-

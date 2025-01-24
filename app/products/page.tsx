@@ -11,25 +11,25 @@ const products = [
   {
     name: "Puja Thali Set",
     price: 1999,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/poojathali.jpeg",
     description: "Complete set for all your puja needs, including brass thali, bell, and diya.",
   },
   {
     name: "Sandalwood Incense Sticks",
     price: 299,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/Sandalwood1.webp",
     description: "Premium quality sandalwood incense sticks for a calming aroma during prayers.",
   },
   {
     name: "Rudraksha Mala",
     price: 799,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/rudrakhsha.webp",
     description: "108 bead Rudraksha mala for meditation and spiritual practices.",
   },
   {
     name: "Brass Diya",
     price: 499,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/brass diya.jpg",
     description: "Intricately designed brass diya for auspicious lighting during pujas.",
   },
 ]
@@ -53,8 +53,8 @@ export default function ProductsPage() {
                 src={product.image || "/placeholder.svg"}
                 alt={product.name}
                 width={300}
-                height={300}
-                className="w-full h-48 object-cover"
+                height={400}
+                className="w-full h-64 object-cover"
               />
               <CardContent className="p-4">
                 <h2 className="text-lg font-semibold mb-2">{product.name}</h2>

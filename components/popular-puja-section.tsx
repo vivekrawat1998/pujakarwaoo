@@ -16,25 +16,27 @@ const pujaCards: PujaCard[] = [
   {
     title: "Annaprashan Puja",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-19%20at%206.45.53%20AM-w9YGxtYWMU1Oyp323d5tJdLKGV9pbP.png",
+      "/anparash.jpg",
     priceRange: {
       min: 3100,
       max: 10100,
     },
+    hasViewDetails: true,
   },
   {
     title: "Maha Mrityunjaya Jaap",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-19%20at%206.45.53%20AM-w9YGxtYWMU1Oyp323d5tJdLKGV9pbP.png",
+      "/maha-mrityunjay jaap.avif",
     priceRange: {
       min: 21000,
       max: 28000,
     },
+    hasViewDetails: true,
   },
   {
     title: "Ark Vivah For Male",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-19%20at%206.45.53%20AM-w9YGxtYWMU1Oyp323d5tJdLKGV9pbP.png",
+      "/ark-vivah.webp",
     priceRange: {
       min: 5100,
       max: 12100,
@@ -44,11 +46,12 @@ const pujaCards: PujaCard[] = [
   {
     title: "Kumbh or Vishnu Vivah For Female",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-19%20at%206.45.53%20AM-w9YGxtYWMU1Oyp323d5tJdLKGV9pbP.png",
+      "/kumbh-vivah-for-female.png",
     priceRange: {
       min: 5100,
       max: 12100,
     },
+    hasViewDetails: true,
   },
 ]
 
@@ -63,13 +66,12 @@ export function PopularPujaSection() {
             <Card key={index} className="overflow-hidden border-0 shadow-lg">
               <CardContent className="p-0">
                 <div className="relative">
-                  <Image src="/placeholder.svg" alt={card.title} width={300} height={300} className="w-full h-auto" />
                   <Image
-                    src="/placeholder.svg"
+                    src={card.image}
                     alt="Diyabati"
-                    width={100}
-                    height={30}
-                    className="absolute top-4 left-4 h-8 w-auto"
+                    width={0}
+                    height={0}
+                    className=" w-full h-[33vh]"
                   />
                 </div>
                 <div className="p-4 text-center">

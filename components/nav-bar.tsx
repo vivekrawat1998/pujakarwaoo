@@ -21,11 +21,11 @@ export function NavBar() {
             <MobileMenu />
             <Link href="/" className="flex items-center">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-19%20at%206.45.37%20AM(1)-lTTZkb3bl2IN2oDo0N1RVEjRnqk7pD.png"
+                src="/logo.png"
                 alt="Puja Karwado Logo"
                 width={108}
                 height={40}
-                className="object-contain"
+                className="object-cover"
               />
             </Link>
           </div>

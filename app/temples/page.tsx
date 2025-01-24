@@ -8,25 +8,25 @@ const temples = [
   {
     name: "Shri Balaji Temple",
     location: "Tirupati, Andhra Pradesh",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/balaji temple.jpg",
     description: "One of the most visited pilgrimage centers in the world, dedicated to Lord Venkateswara.",
   },
   {
     name: "Golden Temple",
     location: "Amritsar, Punjab",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/golden temple.webp",
     description: "The holiest Gurdwara and the central religious place of Sikhism.",
   },
   {
     name: "Kashi Vishwanath Temple",
     location: "Varanasi, Uttar Pradesh",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/Kashi_Vishwanath.jpg",
     description: "One of the most famous Hindu temples dedicated to Lord Shiva.",
   },
   {
     name: "Meenakshi Amman Temple",
     location: "Madurai, Tamil Nadu",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/meenakshimantemple.jpg",
     description: "A historic Hindu temple dedicated to Goddess Meenakshi and Lord Sundareswarar.",
   },
 ]
@@ -43,9 +43,9 @@ export default function TemplesPage() {
               <Image
                 src={temple.image || "/placeholder.svg"}
                 alt={temple.name}
-                width={400}
+                width={300}
                 height={300}
-                className="w-full h-48 object-cover"
+                className="w-full h-72 object-cover"
               />
               <CardContent className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{temple.name}</h2>
