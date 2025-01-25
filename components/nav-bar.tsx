@@ -6,7 +6,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MobileMenu } from "@/components/mobile-menu"
 
-export function NavBar() {
+export const NavBar =() => {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   useEffect(() => {

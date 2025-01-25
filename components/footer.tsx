@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Mail, Phone } from "lucide-react"
 
-export function Footer() {
+export const  Footer =() => {
   return (
     <footer className="bg-[#2C1810] text-white py-16">
       <div className="container mx-auto px-4">

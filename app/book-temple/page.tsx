@@ -1,19 +1,20 @@
-"use client"
+"use client";
+import { Suspense, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import dynamic from "next/dynamic";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { CalendarIcon } from "lucide-react";
 
-import { useState, useEffect } from "react"
-import { useSearchParams } from "next/navigation"
-import { NavBar } from "@/components/nav-bar"
-import { Footer } from "@/components/footer"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { CalendarIcon } from "lucide-react"
+const DynamicFooter = dynamic(() => import('@/components/footer').then(mod => mod.Footer), { ssr: false });
+const DynamicNavBar = dynamic(() => import('@/components/nav-bar').then(mod => mod.NavBar), { ssr: false });
 
 export default function BookTemplePuja() {
-  const searchParams = useSearchParams()
-  const selectedTemple = searchParams.get("temple") 
+  const searchParams = useSearchParams();
+  const selectedTemple = searchParams.get("temple");
 
   const [formData, setFormData] = useState({
     fullName: "",
@@ -23,21 +24,23 @@ export default function BookTemplePuja() {
     pujaType: "",
     date: "",
     additionalRequests: "",
-  })
+  });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Form Data Submitted:", formData)
-  }
+    e.preventDefault();
+    console.log("Form Data Submitted:", formData);
+  };
 
   return (
     <main className="min-h-screen flex flex-col">
-      <NavBar />
+      <Suspense fallback={<div>Loading NavBar...</div>}>
+        <DynamicNavBar />
+      </Suspense>
 
       <div className="flex-grow container mx-auto px-4 py-8 mt-20">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">Book Your Puja Now</h1>
@@ -47,6 +50,7 @@ export default function BookTemplePuja() {
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Form Fields */}
               <div>
                 <Label htmlFor="fullName">Full Name</Label>
                 <Input
@@ -57,6 +61,7 @@ export default function BookTemplePuja() {
                   value={formData.fullName}
                   onChange={handleChange}
                   required
+                  aria-label="Full Name"
                 />
               </div>
 
@@ -70,6 +75,7 @@ export default function BookTemplePuja() {
                   value={formData.email}
                   onChange={handleChange}
                   required
+                  aria-label="Email"
                 />
               </div>
 
@@ -83,6 +89,7 @@ export default function BookTemplePuja() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
+                  aria-label="Phone Number"
                 />
               </div>
 
@@ -95,6 +102,7 @@ export default function BookTemplePuja() {
                   value={formData.temple}
                   readOnly
                   className="cursor-not-allowed bg-gray-100"
+                  aria-label="Temple"
                 />
               </div>
 
@@ -108,6 +116,7 @@ export default function BookTemplePuja() {
                   value={formData.pujaType}
                   onChange={handleChange}
                   required
+                  aria-label="Type of Puja"
                 />
               </div>
 
@@ -121,6 +130,7 @@ export default function BookTemplePuja() {
                     value={formData.date}
                     onChange={handleChange}
                     required
+                    aria-label="Puja Date"
                   />
                   <CalendarIcon className="absolute top-1/2 right-3 transform -translate-y-1/2 text-gray-500" />
                 </div>
@@ -134,6 +144,7 @@ export default function BookTemplePuja() {
                   placeholder="Enter any additional requests or instructions"
                   value={formData.additionalRequests}
                   onChange={handleChange}
+                  aria-label="Additional Requests"
                 />
               </div>
 
@@ -144,7 +155,10 @@ export default function BookTemplePuja() {
           </CardContent>
         </Card>
       </div>
-      <Footer />
+
+      <Suspense fallback={<div>Loading footer...</div>}>
+        <DynamicFooter />
+      </Suspense>
     </main>
-  )
+  );
 }
