@@ -2,8 +2,9 @@ import { NavBar } from "@/components/nav-bar"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 import Image from "next/image"
-
+import { useSearchParams } from "next/navigation"
 const temples = [
   {
     name: "Shri Balaji Temple",
@@ -51,7 +52,9 @@ export default function TemplesPage() {
                 <h2 className="text-xl font-semibold mb-2">{temple.name}</h2>
                 <p className="text-sm text-gray-500 mb-2">{temple.location}</p>
                 <p className="text-sm mb-4">{temple.description}</p>
-                <Button className="w-full bg-[#B84C25] hover:bg-[#a3431f]">Book Puja</Button>
+                <Link href={`/book-temple?temple=${encodeURIComponent(temple.name)}`}>
+                  <Button className="w-full bg-[#B84C25] hover:bg-[#a3431f]">Book Puja</Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
