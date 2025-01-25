@@ -16,8 +16,7 @@ export default function LoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real application, you would validate credentials here
-    // For this example, we'll just simulate a successful login
+
     localStorage.setItem("isLoggedIn", "true")
     router.push("/dashboard")
   }
