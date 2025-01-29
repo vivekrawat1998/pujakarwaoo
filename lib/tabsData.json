@@ -1,0 +1,576 @@
+{
+  "tabs": [
+    {
+      "id": "all-puja",
+      "title": "All Puja",
+      "cards": [
+        {
+          "id": "विवाह संस्कार",
+          "title": "विवाह संस्कार",
+          "About": "After the proper completion of the Samavartan Sanskar, the sequence of the Vivah Sanskar (marriage ceremony) follows, which is considered the most significant among all the sacraments. Only after marriage does one attain eligibility to enter the Grihastha Ashram (householder stage). According to Acharya Manu, one should marry at the age of 25 and duly follow the duties of a householder after marriage. The Grihastha Ashram is the supporter and protector of all other stages of life The Daksha Smriti declares the Grihastha Ashram as the root cause of the other three stages of life:त्रयाणामाश्रमाणां तु गृहस्थो योनिरुच्यते Just as all living beings are nurtured, supported, and sustained under the care of their mother, similarly, all religions, communities, and stages of life are dependent upon the Grihastha Ashram. As the foundation of all the stages of life is the Grihastha Ashram, the foundation of the Grihastha Ashram is the wife.   न गृहं  गृहमित्याहुर्गृहिणी गृहमुच्यते गृहस्थः| स तु विज्ञेयो गृहे यस्य पतिव्रता || A household is called a home because of the presence of a housewife. A man becomes a true householder when he has a devoted wife at home. Marriage is a sacred bond between the bride and groom, solemnized in the presence of fire and deities. On the surface, it may appear as a worldly celebration, but from a spiritual perspective, it is a process grounded in Vedic principles that establishes all moral values. Through procreation, it leads to the fulfillment of Pitru Rin (ancestral debt), along with a disciplined lifestyle, virtuous conduct, hospitality to guests, and service to all living beings. These pave the way for self-realization and spiritual liberation. The primary aim of the Vivah Sanskar is to dissolve worldly attachments and to impart knowledge of spiritual and social responsibilities. The Grihastha Dharma holds great significance in establishing the four goals of human life (Purusharth Chatushtaya)—Dharma (righteousness), Artha (wealth), Kama (desires), and Moksha (liberation). This sacrament's main purpose is to regulate and discipline the conduct of both men and women. A wife is the husband's Ardhangini (better half), and a husband is the wife's other half. Only after marriage do both achieve completeness.With proper and clear Vedic chants, the Vivah Sanskar influences the mind, intellect, and emotions, fostering mutual love between the couple. By adhering to the Grihastha Dharma as prescribed in the scriptures, one can overcome the three debts—Deva Rin (debt to gods), Pitru Rin (debt to ancestors), and Rishi Rin (debt to sages). The principles of Pativrata (devotion of the wife) and Eka Patnivrat (monogamy of the husband) are unique contributions of Indian sages and scriptures. The Indian marriage tradition also acknowledges the connection of past and future lives (a bond of seven lifetimes). In the Indian Vivah Sanskar system, the concept of divorce is unimaginable. If the thought of separation arises, it is certain that the sacrament was not performed according to the Vedic principles. In a proper Vedic sacrament, the question of separation does not arise. In the Indian tradition, the wife follows the vow of Pativrata Dharma, and the husband upholds the vow of Eka Patnivrat. This mutual commitment leads to deepening love and respect for each other. After marriage, the bride becomes a wife, and the groom becomes a husband. Through the marriage sacrament, both attain the eligibility to perform yajnas (sacrificial rituals) and practice righteous living.",
+          "duration": "3-4 hours",
+
+          "price": 5100,
+          "image": "https://hemfragrances.in/cdn/shop/articles/satyanarayan-katha_1200x1200.webp?v=1718089601",
+          "benefits": ""
+        },
+        {
+          "id": "kalsarp-dosha",
+          "title": "Kalsarp Dosha",
+          "description": "Remedial puja for Kalsarp yoga effects",
+          "duration": "2-3 hours",
+          "price": 7100,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmjtsKi3GnkqvVza03_fA2NV3_6-ke5AZ9wQ&s",
+          "benefits": [
+            "Removes negative effects",
+            "Improves fortune",
+            "Better career prospects"
+          ]
+        },
+        {
+          "id": "manglik-dosha",
+          "title": "Manglik Dosha",
+          "description": "Remedial puja for Mangal dosha",
+          "duration": "2 hours",
+          "price": 5100,
+          "image": "https://www.brahminji.com/wp-content/uploads/2022/11/MANGLIK-DOSH-PUJA-BRAHMINJI-lite-version.png",
+          "benefits": [
+            "Marriage harmony",
+            "Relationship improvement",
+            "Peace in life"
+          ]
+        },
+        {
+          "id": "pitru-dosha",
+          "title": "Pitru Dosha",
+          "description": "Remedial puja for ancestral issues",
+          "duration": "3 hours",
+          "price": 6100,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7xxRyjIhpGAvT0bo61jc9XK-ZgqbWpAxbw&s",
+          "benefits": [
+            "Ancestral blessings",
+            "Remove family problems",
+            "Peace to departed souls"
+          ]
+        },
+        {
+          "id": "navagraha-shanti",
+          "title": "Navagraha Shanti",
+          "description": "Peace ritual for all nine planets",
+          "duration": "4 hours",
+          "price": 8100,
+          "image": "https://shaligram.com/images/Product/navagraha-shanti-puja-OPS-11-19-Zoom.jpg",
+          "benefits": [
+            "Planetary peace",
+            "Remove astrological problems",
+            "Better fortune"
+          ]
+        },
+        {
+          "id": "shani-shanti",
+          "title": "Shani Shanti",
+          "description": "Peace ritual for Saturn planet",
+          "duration": "2 hours",
+          "price": 4100,
+          "image": "https://cdn.shopaccino.com/rudraksha-center/products/shanijayanti-947487_l.jpg?v=521",
+          "benefits": [
+            "Remove Saturn's negative effects",
+            "Professional growth",
+            "Better stability"
+          ]
+        },
+        {
+          "id": "pre-wedding",
+          "title": "Pre-Wedding Rituals",
+          "description": "Complete pre-wedding ceremony package",
+          "duration": "4-5 hours",
+          "price": 21100,
+          "image": "https://cliveblair.co.uk/wp-content/uploads/2020/02/hindu-prewedding-ceremony-groom-005.jpg",
+          "benefits": [
+            "Traditional rituals",
+            "Proper muhurat",
+            "Complete guidance"
+          ]
+        },
+        {
+          "id": "wedding-ceremony",
+          "title": "Wedding Ceremony",
+          "description": "Complete wedding ritual package",
+          "duration": "6-8 hours",
+          "price": 51100,
+          "image": "https://www.theweddingcardsonline.com/cdn/shop/articles/feature-10.jpg?v=1661685208",
+          "benefits": [
+            "All wedding rituals",
+            "Proper muhurat",
+            "Complete arrangements"
+          ]
+        },
+        {
+          "id": "mahamrityunjay",
+          "title": "Mahamrityunjay Jaap",
+          "description": "Sacred chanting for health and longevity",
+          "duration": "2 hours",
+          "price": 3100,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLKvymDyfLc81mSFRKUqdyIgz4wrMXeyMg3A&s",
+          "benefits": ["Better health", "Long life", "Remove negativity"]
+        },
+        {
+          "id": "gayatri-mantra",
+          "title": "Gayatri Mantra Jaap",
+          "description": "Sacred chanting of Gayatri Mantra",
+          "duration": "2 hours",
+          "price": 3100,
+          "image": "/images/gayatri.jpg",
+          "benefits": ["Spiritual growth", "Mental peace", "Better wisdom"]
+        },
+        {
+          "id": "agni-hotra",
+          "title": "Agni Hotra",
+          "description": "Daily fire ritual for purification",
+          "duration": "1 hour",
+          "price": 2100,
+          "image": "/images/agnihotra.jpg",
+          "benefits": [
+            "Environmental purification",
+            "Better health",
+            "Positive energy"
+          ]
+        },
+        {
+          "id": "seven-day-katha",
+          "title": "7-Day Bhagwat Katha",
+          "description": "Complete narration of Bhagwat Puran",
+          "duration": "7 days",
+          "price": 51100,
+          "image": "/images/bhagwat-katha.jpg",
+          "benefits": [
+            "Spiritual knowledge",
+            "Divine blessings",
+            "Life guidance"
+          ]
+        },
+        {
+          "id": "sunderkand-path",
+          "title": "Sunderkand Paath",
+          "description": "Sacred recitation of Sunderkand",
+          "duration": "3 hours",
+          "price": 5100,
+          "image": "/images/sunderkand.jpg",
+          "benefits": [
+            "Remove obstacles",
+            "Divine protection",
+            "Success in endeavors"
+          ]
+        },
+        {
+          "id": "complete-ramayan-path",
+          "title": "Complete Ramayan Path",
+          "description": "Complete recitation of Ramayan",
+          "duration": "9 days",
+          "price": 51100,
+          "image": "/images/ramayan.jpg",
+          "benefits": ["Divine blessings", "Family harmony", "Life lessons"]
+        },
+        {
+          "id": "rudrabhishek",
+          "title": "Rudrabhishek Puja",
+          "description": "Sacred abhishek of Lord Shiva",
+          "duration": "3 hours",
+          "price": 7100,
+          "image": "/images/rudrabhishek.jpg",
+          "benefits": [
+            "Remove negativity",
+            "Better fortune",
+            "Divine blessings"
+          ]
+        },
+        {
+          "id": "vishnu-katha",
+          "title": "Vishnu Katha",
+          "description": "Sacred narration about Lord Vishnu",
+          "duration": "3 days",
+          "price": 21100,
+          "image": "/images/vishnu-katha.jpg",
+          "benefits": [
+            "Spiritual knowledge",
+            "Divine blessings",
+            "Peace of mind"
+          ]
+        },
+        {
+          "id": "namkaran",
+          "title": "Namkaran Sanskar",
+          "description": "Naming ceremony for newborn",
+          "duration": "2 hours",
+          "price": 5100,
+          "image": "/images/namkaran.jpg",
+          "benefits": [
+            "Traditional naming",
+            "Divine blessings",
+            "Proper muhurat"
+          ]
+        },
+        {
+          "id": "mundan",
+          "title": "Mundan Sanskar",
+          "description": "First hair-cutting ceremony",
+          "duration": "2 hours",
+          "price": 4100,
+          "image": "/images/mundan.jpg",
+          "benefits": [
+            "Traditional ceremony",
+            "Divine blessings",
+            "Proper muhurat"
+          ]
+        },
+        {
+          "id": "office-vastu",
+          "title": "Office Vastu Puja",
+          "description": "Vastu correction for office space",
+          "duration": "2 hours",
+          "price": 7100,
+          "image": "/images/office-vastu.jpg",
+          "benefits": [
+            "Better business prospects",
+            "Positive energy",
+            "Remove obstacles"
+          ]
+        },
+        {
+          "id": "new-office",
+          "title": "New Office Opening",
+          "description": "Inauguration ceremony for new office",
+          "duration": "2 hours",
+          "price": 11100,
+          "image": "/images/new-office.jpg",
+          "benefits": [
+            "Auspicious beginning",
+            "Business growth",
+            "Divine blessings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dosha-nivaran",
+      "title": "Dosha Nivaran",
+      "cards": [
+        {
+          "id": "kalsarp-dosha",
+          "title": "Kalsarp Dosha",
+          "description": "Remedial puja for Kalsarp yoga effects",
+          "duration": "2-3 hours",
+          "price": 7100,
+          "image": "/images/kalsarp-dosha.jpg",
+          "benefits": [
+            "Removes negative effects",
+            "Improves fortune",
+            "Better career prospects"
+          ]
+        },
+        {
+          "id": "manglik-dosha",
+          "title": "Manglik Dosha",
+          "description": "Remedial puja for Mangal dosha",
+          "duration": "2 hours",
+          "price": 5100,
+          "image": "/images/manglik-dosha.jpg",
+          "benefits": [
+            "Marriage harmony",
+            "Relationship improvement",
+            "Peace in life"
+          ]
+        },
+        {
+          "id": "pitru-dosha",
+          "title": "Pitru Dosha",
+          "description": "Remedial puja for ancestral issues",
+          "duration": "3 hours",
+          "price": 6100,
+          "image": "/images/pitru-dosha.jpg",
+          "benefits": [
+            "Ancestral blessings",
+            "Remove family problems",
+            "Peace to departed souls"
+          ]
+        },
+        {
+          "id": "उदक शान्ति पूजा विधान",
+          "title": "उदक शान्ति पूजा विधान",
+          "description": "कोई भी धार्मिक अनुष्ठान, देवपूजा, स्तोत्र पाठ, जप, ध्यान आदि सदैव जीवन में, घर परिवार की श...",
+          "duration": "4 hours",
+          "price": 5100,
+          "image": "/images/pitru-dosha.jpg",
+          "benefits": [
+            "पितृश्वरों को मोक्ष की प्राप्ति, पितृदोष तथा:- पितृऋण से मुक्ति मिलती है",
+            "व्यापारिक, व्यावहारिक तथा जीवन में आने वाली समस्त बाधाएं शान्त होती हैं",
+            "माता के गर्भस्थ शिशु की सर्वप्रकार से रक्षा होती है",
+            "घर में शान्ति, बेहतर करियर की संभावनाएं बढ़ती हैं"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graha-shanti",
+      "title": "Graha Shanti",
+      "cards": [
+        {
+          "id": "navagraha-shanti",
+          "title": "Navagraha Shanti",
+          "description": "Peace ritual for all nine planets",
+          "duration": "4 hours",
+          "price": 8100,
+          "image": "/images/navagraha-shanti.jpg",
+          "benefits": [
+            "Planetary peace",
+            "Remove astrological problems",
+            "Better fortune"
+          ]
+        },
+        {
+          "id": "shani-shanti",
+          "title": "Shani Shanti",
+          "description": "Peace ritual for Saturn planet",
+          "duration": "2 hours",
+          "price": 4100,
+          "image": "/images/shani-shanti.jpg",
+          "benefits": [
+            "Remove Saturn's negative effects",
+            "Professional growth",
+            "Better stability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vivah",
+      "title": "Vivah",
+      "cards": [
+        {
+          "id": "pre-wedding",
+          "title": "Pre-Wedding Rituals",
+          "description": "Complete pre-wedding ceremony package",
+          "duration": "4-5 hours",
+          "price": 21100,
+          "image": "/images/pre-wedding.jpg",
+          "benefits": [
+            "Traditional rituals",
+            "Proper muhurat",
+            "Complete guidance"
+          ]
+        },
+        {
+          "id": "wedding-ceremony",
+          "title": "Wedding Ceremony",
+          "description": "Complete wedding ritual package",
+          "duration": "6-8 hours",
+          "price": 51100,
+          "image": "/images/wedding.jpg",
+          "benefits": [
+            "All wedding rituals",
+            "Proper muhurat",
+            "Complete arrangements"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantra-jaap",
+      "title": "Mantra Jaap",
+      "cards": [
+        {
+          "id": "mahamrityunjay",
+          "title": "Mahamrityunjay Jaap",
+          "description": "Sacred chanting for health and longevity",
+          "duration": "2 hours",
+          "price": 3100,
+          "image": "/images/mahamrityunjay.jpg",
+          "benefits": ["Better health", "Long life", "Remove negativity"]
+        },
+        {
+          "id": "gayatri-mantra",
+          "title": "Gayatri Mantra Jaap",
+          "description": "Sacred chanting of Gayatri Mantra",
+          "duration": "2 hours",
+          "price": 3100,
+          "image": "/images/gayatri.jpg",
+          "benefits": ["Spiritual growth", "Mental peace", "Better wisdom"]
+        }
+      ]
+    },
+    {
+      "id": "vedik-yagya",
+      "title": "Vedik Yagya at Home",
+      "cards": [
+        {
+          "id": "agni-hotra",
+          "title": "Agni Hotra",
+          "description": "Daily fire ritual for purification",
+          "duration": "1 hour",
+          "price": 2100,
+          "image": "/images/agnihotra.jpg",
+          "benefits": [
+            "Environmental purification",
+            "Better health",
+            "Positive energy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bhagwat-katha",
+      "title": "Shrimad Bhagwat Katha",
+      "cards": [
+        {
+          "id": "seven-day-katha",
+          "title": "7-Day Bhagwat Katha",
+          "description": "Complete narration of Bhagwat Puran",
+          "duration": "7 days",
+          "price": 51100,
+          "image": "/images/bhagwat-katha.jpg",
+          "benefits": [
+            "Spiritual knowledge",
+            "Divine blessings",
+            "Life guidance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sunderkand",
+      "title": "Sunderkand Path",
+      "cards": [
+        {
+          "id": "sunderkand-path",
+          "title": "Sunderkand Paath",
+          "description": "Sacred recitation of Sunderkand",
+          "duration": "3 hours",
+          "price": 5100,
+          "image": "/images/sunderkand.jpg",
+          "benefits": [
+            "Remove obstacles",
+            "Divine protection",
+            "Success in endeavors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ramayan",
+      "title": "Ramayan Path",
+      "cards": [
+        {
+          "id": "ramayan-path",
+          "title": "Complete Ramayan Path",
+          "description": "Complete recitation of Ramayan",
+          "duration": "9 days",
+          "price": 51100,
+          "image": "/images/ramayan.jpg",
+          "benefits": ["Divine blessings", "Family harmony", "Life lessons"]
+        }
+      ]
+    },
+    {
+      "id": "rudrabhishek",
+      "title": "Rudrabhishek",
+      "cards": [
+        {
+          "id": "rudrabhishek",
+          "title": "Rudrabhishek Puja",
+          "description": "Sacred abhishek of Lord Shiva",
+          "duration": "3 hours",
+          "price": 7100,
+          "image": "/images/rudrabhishek.jpg",
+          "benefits": [
+            "Remove negativity",
+            "Better fortune",
+            "Divine blessings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "katha",
+      "title": "Katha",
+      "cards": [
+        {
+          "id": "vishnu-katha",
+          "title": "Vishnu Katha",
+          "description": "Sacred narration about Lord Vishnu",
+          "duration": "3 days",
+          "price": 21100,
+          "image": "/images/vishnu-katha.jpg",
+          "benefits": [
+            "Spiritual knowledge",
+            "Divine blessings",
+            "Peace of mind"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanskar",
+      "title": "Sanskar Puja",
+      "cards": [
+        {
+          "id": "namkaran",
+          "title": "Namkaran Sanskar",
+          "description": "Naming ceremony for newborn",
+          "duration": "2 hours",
+          "price": 5100,
+          "image": "/images/namkaran.jpg",
+          "benefits": [
+            "Traditional naming",
+            "Divine blessings",
+            "Proper muhurat"
+          ]
+        },
+        {
+          "id": "mundan",
+          "title": "Mundan Sanskar",
+          "description": "First hair-cutting ceremony",
+          "duration": "2 hours",
+          "price": 4100,
+          "image": "/images/mundan.jpg",
+          "benefits": [
+            "Traditional ceremony",
+            "Divine blessings",
+            "Proper muhurat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "title": "Office Puja",
+      "cards": [
+        {
+          "id": "office-vastu",
+          "title": "Office Vastu Puja",
+          "description": "Vastu correction for office space",
+          "duration": "2 hours",
+          "price": 7100,
+          "image": "/images/office-vastu.jpg",
+          "benefits": [
+            "Better business prospects",
+            "Positive energy",
+            "Remove obstacles"
+          ]
+        },
+        {
+          "id": "new-office",
+          "title": "New Office Opening",
+          "description": "Inauguration ceremony for new office",
+          "duration": "2 hours",
+          "price": 11100,
+          "image": "/images/new-office.jpg",
+          "benefits": [
+            "Auspicious beginning",
+            "Business growth",
+            "Divine blessings"
+          ]
+        }
+      ]
+    }
+  ]
+}
